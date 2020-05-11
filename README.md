@@ -1,2 +1,2 @@
 # practice
-all for soaring
+All for soaring!
