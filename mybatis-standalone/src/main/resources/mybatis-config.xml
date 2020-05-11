@@ -26,6 +26,7 @@
 
     <typeAliases>
         <typeAlias alias="blog" type="com.gupaoedu.domain.Blog" />
+        <typeAlias alias="shop" type="com.gupaoedu.domain.Shop" />
     </typeAliases>
 
 <!--    <typeHandlers>
@@ -60,6 +61,7 @@
     <mappers>
         <mapper resource="BlogMapper.xml"/>
         <mapper resource="BlogMapperExt.xml"/>
+        <mapper resource="ShopMapper.xml"/>
     </mappers>
 
 </configuration>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
     <properties resource="db.properties"></properties>
@@ -25,6 +26,7 @@
 
     <typeAliases>
         <typeAlias alias="blog" type="com.gupaoedu.domain.Blog" />
+        <typeAlias alias="shop" type="com.gupaoedu.domain.Shop" />
     </typeAliases>
 
 <!--    <typeHandlers>
@@ -59,6 +61,7 @@
     <mappers>
         <mapper resource="BlogMapper.xml"/>
         <mapper resource="BlogMapperExt.xml"/>
+        <mapper resource="ShopMapper.xml"/>
     </mappers>
 
 </configuration>
